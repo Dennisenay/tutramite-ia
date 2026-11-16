@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tu Trámite IA: asistente virtual para consultar trámites y servicios públicos.">
+    <title>Tu Trámite IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<div class="page">
+
+    <header class="header">
+        <nav class="navbar_container">
+            <div class="navbar_brand">
+                <svg class="navbar_icon" viewBox="0 0 40 40" aria-hidden="true">
+                    <circle cx="20" cy="20" r="19" fill="#1F6FEB" stroke="#fff" stroke-width="2"/>
+                    <rect x="9" y="12" width="22" height="17" rx="7" fill="#fff"/>
+                    <circle cx="15.5" cy="20" r="2.4" fill="#1F6FEB"/>
+                    <circle cx="24.5" cy="20" r="2.4" fill="#1F6FEB"/>
+                    <path d="M16 25q4 3 8 0" fill="none" stroke="#1F6FEB" stroke-width="1.6" stroke-linecap="round"/>
+                    <line x1="20" y1="12" x2="20" y2="7" stroke="#fff" stroke-width="2"/>
+                    <circle cx="20" cy="6" r="2" fill="#fff"/>
+                </svg>
+                <h1 class="navbar_logo">Tu Trámite IA</h1>
+            </div>
+            <a class="navbar_login" href="#">
+                <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
+                    <circle cx="12" cy="8" r="4"/>
+                    <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/>
+                </svg>
+                Iniciar sesión
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="assistant">
+            <p class="assistant_bubble">¡Hola!<br>Soy tu asistente virtual.<br>¿En qué puedo ayudarte hoy?</p>
+
+            <svg class="assistant_robot" viewBox="0 0 150 200" role="img" aria-label="Robot asistente">
+                <line x1="75" y1="14" x2="75" y2="30" stroke="#8A97A8" stroke-width="3"/>
+                <circle cx="75" cy="10" r="5" fill="#2FE5E4" stroke="#293A4E" stroke-width="2"/>
+                <rect x="14" y="52" width="14" height="28" rx="6" fill="#2FA7D8" stroke="#293A4E" stroke-width="2.5"/>
+                <rect x="122" y="52" width="14" height="28" rx="6" fill="#2FA7D8" stroke="#293A4E" stroke-width="2.5"/>
+                <rect x="24" y="28" width="102" height="76" rx="30" fill="#F4F6F9" stroke="#293A4E" stroke-width="2.5"/>
+                <rect x="36" y="42" width="78" height="46" rx="20" fill="#293A4E"/>
+                <path d="M52 60q6-8 12 0" fill="none" stroke="#2FE5E4" stroke-width="4" stroke-linecap="round"/>
+                <path d="M86 60q6-8 12 0" fill="none" stroke="#2FE5E4" stroke-width="4" stroke-linecap="round"/>
+                <path d="M62 72q13 11 26 0" fill="none" stroke="#2FE5E4" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="44" cy="76" r="4" fill="#F28B9B" opacity=".8"/>
+                <circle cx="106" cy="76" r="4" fill="#F28B9B" opacity=".8"/>
+                <rect x="64" y="102" width="22" height="10" rx="4" fill="#8A97A8" stroke="#293A4E" stroke-width="2"/>
+                <path d="M38 118q37-14 74 0l-6 52q-31 12-62 0z" fill="#F4F6F9" stroke="#293A4E" stroke-width="2.5"/>
+                <circle cx="75" cy="140" r="9" fill="#2FA7D8" stroke="#293A4E" stroke-width="2"/>
+                <circle cx="75" cy="140" r="3.5" fill="#fff"/>
+                <path d="M38 124q-16 14-12 38" fill="none" stroke="#293A4E" stroke-width="12" stroke-linecap="round"/>
+                <path d="M38 124q-16 14-12 38" fill="none" stroke="#F4F6F9" stroke-width="8" stroke-linecap="round"/>
+                <path d="M112 124q22-6 22-36" fill="none" stroke="#293A4E" stroke-width="12" stroke-linecap="round"/>
+                <path d="M112 124q22-6 22-36" fill="none" stroke="#F4F6F9" stroke-width="8" stroke-linecap="round"/>
+                <ellipse cx="75" cy="188" rx="34" ry="7" fill="#293A4E" opacity=".18"/>
+            </svg>
+        </section>
+    </main>
+
+    <ul class="features">
+        <li class="features_item">
+            <svg viewBox="0 0 24 24" fill="#000" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+            <span>Respuestas<br>rápidas</span>
+        </li>
+        <li class="features_item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6z"/><path d="m8.5 12 2.5 2.5L16 9.5"/></svg>
+            <span>Información<br>oficial</span>
+        </li>
+        <li class="features_item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <span>Disponible<br>24/7</span>
+        </li>
+    </ul>
+
+    <!-- Sobre nosotros -->
+    <section class="about" id="nosotros" aria-labelledby="about-title">
+        <div class="about_intro">
+            <div class="about_content">
+                <span class="about_badge">Sobre nosotros</span>
+                <h2 class="about_title" id="about-title">¿Por qué elegir<br>Tu Trámite IA?</h2>
+                <p class="about_text">Sabemos que encontrar información sobre trámites y servicios públicos puede ser complicado. Por eso, creamos Tu Trámite IA, un asistente virtual que utiliza inteligencia artificial para ayudarte a encontrar respuestas y orientarte durante tus consultas de manera fácil y rápida.</p>
+            </div>
+            <img class="about_image" src="./images/robot2.png" alt="Robot asistente sonriendo con un documento en una mano y el pulgar arriba">
+        </div>
+
+        <ul class="about_cards">
+            <li class="about_card">
+                <span class="about_icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+                </span>
+                <div>
+                    <h3 class="about_card_title">Fácil de utilizar</h3>
+                    <p class="about_card_text">Realiza consultas utilizando lenguaje sencillo.</p>
+                </div>
+            </li>
+            <li class="about_card">
+                <span class="about_icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                </span>
+                <div>
+                    <h3 class="about_card_title">Ahorra tiempo</h3>
+                    <p class="about_card_text">Encuentra orientación sin búsquedas complicadas.</p>
+                </div>
+            </li>
+            <li class="about_card">
+                <span class="about_icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6z" fill="currentColor"/><path d="m8.5 12 2.5 2.5L16 9.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div>
+                    <h3 class="about_card_title">Mayor confianza</h3>
+                    <p class="about_card_text">Consulta información basada en fuentes oficiales.</p>
+                </div>
+            </li>
+            <li class="about_card">
+                <span class="about_icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="11" rx="5" fill="currentColor"/><circle cx="9" cy="13.5" r="1.4" fill="#fff"/><circle cx="15" cy="13.5" r="1.4" fill="#fff"/><line x1="12" y1="8" x2="12" y2="4.5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="3.5" r="1.5" fill="currentColor"/></svg>
+                </span>
+                <div>
+                    <h3 class="about_card_title">Asistencia inteligente</h3>
+                    <p class="about_card_text">Obtén respuestas mediante inteligencia artificial.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="services_heading">
+            <span class="services_badge">Lo que necesitas, en un solo lugar</span>
+            <h2 class="services_title">Trámites y servicios <span>más consultados</span></h2>
+            <p class="services_text">Encuentra una guía inicial para los trámites públicos más solicitados.</p>
+        </div>
+
+        <div class="services_layout">
+            <div class="services_popular">
+                <h3 class="subheading">Trámites más consultados</h3>
+
+                <a class="service_row" href="#">
+                    <span class="service_icon service_icon--dark">
+                        <img src="./images/ID.png" alt="ID">
+                    </span>
+                    <span class="service_text"><strong>Cédula de identidad</strong><small>Consulta requisitos, costos y pasos para renovar tu cédula.</small></span>
+                    <span class="service_arrow">›</span>
+                </a>
+
+                <a class="service_row" href="#">
+                    <span class="service_icon service_icon--dark">
+                        <img src="./images/documento.png" alt="documento">
+                    </span>
+                    <span class="service_text"><strong>Certificados</strong><small>Infórmate sobre certificados de nacimiento, matrimonio y más.</small></span>
+                    <span class="service_arrow">›</span>
+                </a>
+
+                <a class="service_row" href="#">
+                    <span class="service_icon service_icon--dark">
+                        <img src="./images/carro.png" alt="carro">
+                    </span>
+                    <span class="service_text"><strong>Licencias de conducir</strong><small>Conoce los requisitos para obtener o renovar tu licencia.</small></span>
+                    <span class="service_arrow">›</span>
+                </a>
+            </div>
+
+            <div class="services_categories">
+                <h3 class="subheading">Servicios públicos</h3>
+                <div class="category_grid">
+                    <a class="category_card" href="#">
+                        <span class="category_symbol">
+                            <img src="./images/persona.png" alt="persona">
+                        </span>
+                        <span class="category_card_text"><strong>Identificación y Registros</strong><small>Cédula, pasaporte y registros civiles.</small></span>
+                    </a>
+                    <a class="category_card" href="#">
+                        <span class="category_symbol">
+                            <img src="./images/corazon.png" alt="corazon">
+                        </span>
+                        <span class="category_card_text"><strong>Salud</strong><small>Afiliación, citas y servicios de salud.</small></span>
+                    </a>
+                    <a class="category_card" href="#">
+                        <span class="category_symbol">
+                            <img src="./images/educacion.png" alt="educacion">
+                        </span>
+                        <span class="category_card_text"><strong>Educación</strong><small>Matrículas, títulos y becas.</small></span>
+                    </a>
+                    <a class="category_card" href="#">
+                        <span class="category_symbol">
+                            <img src="./images/casa.png" alt="casa">
+                        </span>
+                        <span class="category_card_text"><strong>Otros servicios</strong><small>Agua potable, luz eléctrica y transporte.</small></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asistente / Chat -->
+    <section class="app" id="asistente">
+        <div class="app_intro">
+            <span class="app_badge">Tu asistente virtual</span>
+            <h2 class="app_title">Conversa con <span>Tu Trámite IA</span></h2>
+            <p class="app_text">Escribe tu consulta y recibe orientación para saber dónde empezar y qué información necesitas.</p>
+            <ul class="app_benefits">
+                <li>✓ Consultas en lenguaje natural</li>
+                <li>✓ Orientación clara y sencilla</li>
+                <li>✓ Disponible en cualquier momento</li>
+            </ul>
+        </div>
+
+        <div class="chat_card">
+            <div class="chat_header">
+                <img src="./images/CabezaRobot.png" alt="">
+                <div><strong>Asistente virtual</strong></div>
+            </div>
+            <div class="chat_body" id="chat-messages">
+                <div class="chat_message chat_message--bot">
+                    ¡Hola! 👋 Soy tu asistente virtual. Escribe tu consulta sobre trámites o servicios públicos.
+                </div>
+            </div>
+            <form class="chat_form" id="chat-form">
+                <input id="chat-input" type="text" placeholder="Ej. ¿Qué necesito para renovar mi cédula?" required>
+                <button class="button" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="contact_intro">
+            <span class="contact_badge">Estamos para ayudarte</span>
+            <h2 class="contact_title">¿Tienes alguna <span>pregunta?</span></h2>
+            <p class="contact_text">Envíanos un mensaje o utiliza el asistente virtual para resolver tus dudas.</p>
+            <div class="contact_details">
+                <p><span>✉</span> soporte@tutramiteia.com</p>
+                <p><span>◷</span> Atención virtual las 24 horas</p>
+                <p><span>⌖</span> Ecuador</p>
+            </div>
+        </div>
+
+        <form class="contact_form" id="contact-form">
+            <div class="form_row">
+                <div class="form_field">
+                    <label for="contact-name">Nombre</label>
+                    <input id="contact-name" name="nombre" type="text" placeholder="Tu nombre" required>
+                </div>
+                <div class="form_field">
+                    <label for="contact-email">Correo electrónico</label>
+                    <input id="contact-email" name="correo" type="email" placeholder="nombre@correo.com" required>
+                </div>
+            </div>
+            <div class="form_field">
+                <label for="contact-subject">Asunto</label>
+                <input id="contact-subject" name="asunto" type="text" placeholder="Motivo de tu consulta" required>
+            </div>
+            <div class="form_field">
+                <label for="contact-message">Mensaje</label>
+                <textarea id="contact-message" name="mensaje" rows="5" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+            </div>
+            <button class="button" type="submit">Enviar mensaje</button>
+            <p class="form_feedback" id="contact-feedback" role="status"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_main">
+            <a class="footer_brand" href="#">
+                <img src="./images/LogoRobot.png" alt="LogoRobot">
+                <span>Tu Trámite IA</span>
+            </a>
+            <p>Tu aliado digital para consultar trámites y servicios públicos de forma fácil y rápida.</p>
+            <div class="footer_socials">
+                <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./images/TikTok.png" alt="TikTok"></a>
+            </div>
+        </div>
+
+        <div class="footer_links">
+            <h3>Explora</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Asistente virtual</a>
+        </div>
+
+        <div class="footer_links">
+            <h3>Ayuda</h3>
+            <a href="#">Contáctanos</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Soporte</a>
+        </div>
+
+        <div class="footer_bottom">
+            <span>© 2026 Tu Trámite IA. Todos los derechos reservados.</span>
+            <a href="#">Volver arriba ↑</a>
+        </div>
+    </footer>
+
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
